@@ -350,82 +350,92 @@ for i in merged_listfifteen:
    listafifteen.append(i[0])
    listbfifteen.append(i[1])
 #plotting the graph for the data
+plt.figure(1)
 plt.plot(listbone,listaone)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphone.png'.format(i))
 
+plt.figure(2)
 plt.plot(listbtwo,listatwo)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphtwo.png'.format(i))
 
+plt.figure(3)
 plt.plot(listbthree,listathree)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphthree.png'.format(i))
 
+plt.figure(4)
 plt.plot(listbfour,listafour)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphfour.png'.format(i))
 
+plt.figure(5)
 plt.plot(listbfive,listafive)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphfive.png'.format(i))
 
+plt.figure(6)
 plt.plot(listbsix,listasix)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphsix.png'.format(i))
 
+plt.figure(7)
 plt.plot(listbseven,listaseven)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphseven.png'.format(i))
 
+plt.figure(8)
 plt.plot(listbeight,listaeight)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/grapheight.png'.format(i))
 
+plt.figure(9)
 plt.plot(listbnine,listanine)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphnine.png'.format(i))
 
+plt.figure(10)
 plt.plot(listbten,listaten)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphten.png'.format(i))
 
+plt.figure(11)
 plt.plot(listbeleven,listaeleven)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/grapheleven.png'.format(i))
 
+plt.figure(12)
 plt.plot(listbtwelve,listatwelve)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphtwelve.png'.format(i))
 
+plt.figure(13)
 plt.plot(listbthirteen,listathirteen)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphthirteen.png'.format(i))
 
+plt.figure(14)
 plt.plot(listbfourteen,listafourteen)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphfourteen.png'.format(i))
 
+plt.figure(15)
 plt.plot(listbfifteen,listafifteen)
 plt.ylabel('Amount')
 plt.xlabel('Start Time')
 plt.savefig('static/graphfifteen.png'.format(i))
-
-
-
-
-
